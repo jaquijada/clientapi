@@ -7,6 +7,6 @@ RUN yum install -y python36u python36u-libs python36u-devel python36u-pip
 RUN mkdir /root/.pip
 COPY pip.conf /root/.pip
 
-RUN pip install linode_example
+RUN pip3 install linode_example
 
 ENTRYPOINT ["bash"] 
