@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        dockerfile true
+        dockerfile { additionalBuildArgs '--no-cache' }
         //dockerfile { additionalBuildArgs  '--network host' } 
     }
     stages {
