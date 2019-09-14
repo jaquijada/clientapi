@@ -1,4 +1,4 @@
-FROM python-3.6
+FROM centos/python-36-centos7
 
 RUN mkdir /home/.pip
 COPY pip.conf /home/.pip
