@@ -9,4 +9,4 @@ COPY pip.conf /root/.pip
 
 RUN pip3.6 install linode_example
 
-ENTRYPOINT ["bash"] 
+#ENTRYPOINT ["bash"] 
